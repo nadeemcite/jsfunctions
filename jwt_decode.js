@@ -11,5 +11,7 @@ decodeJwtToken = function(t) {
 		c=e[s.charAt(x)];b=(b<<6)+c;l+=6;
 		while(l>=8){((a=(b>>>(l-=8))&0xff)||(x<(L-2)))&&(r+=w(a));}
 	}
+	
+	//This was created on 29/4/2016
 	return JSON.parse(r);
 };
